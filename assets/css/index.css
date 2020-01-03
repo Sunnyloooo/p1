@@ -1,0 +1,182 @@
+/* */
+
+/*
+border-radius:2px;
+*/
+html {
+    /*transition-duration: 0.5s;*/
+    scroll-behavior: smooth;
+}
+
+body {
+    /*background: #7aad7e;*/
+}
+
+a {
+    color: #212529;
+}
+
+a:hover {
+    color: #212529;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#header {
+    background: url("../images/arnel-hasanovic-4oWSXdeAS2g-unsplash.jpg") center top no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+#header #choose {
+    margin-top: 100px;
+    border: none;
+    border-radius: 2px;
+    background: #7aad7e;
+    color: white;
+}
+#navbar {
+    background: white;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+#navbar.scrollChange {
+    background: transparent;
+}
+
+/*section1*/
+#section1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-height: 50vh;
+}
+
+#section1 img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+
+#section1 h4 {
+    line-height: 2;
+}
+
+#section1 p {
+    line-height: 1.8;
+}
+
+/*section2*/
+#section2 {
+    background: url("../images/you-x-ventures-6awfTPLGaCE-unsplash.jpg") center center no-repeat;
+    background-size: cover;
+    color: #efefef;
+}
+
+#section2 #sectionContent {
+    /*padding-left: 15vw;*/
+    background: #7aad7e;
+}
+
+#section2 #contentWrap {
+    max-width: 550px;
+    margin-left: auto;
+    padding: 5vw;
+    padding-left: 2vw;
+    line-height: 1.7;
+}
+
+#section2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*section3*/
+
+#section3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50vh;
+    line-height: 1.7;
+}
+
+#section3 .circleIcon {
+    color:#7aad7e;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #7aad7e;
+    border-radius: 50%;
+}
+#section3 h3{
+    margin-bottom: 20px;
+}
+/*section4*/
+#section4 {
+    padding-top: 100px;
+    height: 60vh;
+    background: #7aad7e;
+}
+#section4 h1{
+    color: #efefef;
+    margin-bottom: 40px;
+}
+#section4 button{
+    border: none;
+    border-radius: 2px;
+    color: #7aad7e;
+    background: white;
+}
+#mainContent {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    #mainContent {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    #section1 {
+        margin-top: 100px;
+        max-height: 100vh;
+    }
+
+    #section2 #contentWrap {
+        margin: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
