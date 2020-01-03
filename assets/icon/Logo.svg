@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="Group_1" data-name="Group 1" transform="translate(-70 -68)">
+    <path id="Path_1" data-name="Path 1" d="M0,199.926,199.926,0H0Z" transform="translate(269.926 68) rotate(90)" fill="#cecdcd"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(70 68)" fill="none" stroke="#1a1a1a" stroke-width="5">
+      <rect width="200" height="200" rx="2" stroke="none"/>
+      <rect x="2.5" y="2.5" width="195" height="195" rx="0.5" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="193.928" y2="193.928" transform="translate(72.999 70.999)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_2" data-name="Line 2" x1="95.964" y2="97.964" transform="translate(170.963 70.999)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_3" data-name="Line 3" x2="95.964" y2="95.964" transform="translate(72.999 168.963)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_4" data-name="Line 4" x1="95.964" y2="95.964" transform="translate(170.963 168.963)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_5" data-name="Line 5" x2="165.938" transform="translate(86.994 84.994)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_6" data-name="Line 6" x2="133.95" transform="translate(102.988 100.988)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_7" data-name="Line 7" x2="101.962" transform="translate(118.982 116.982)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_8" data-name="Line 8" x2="71.973" transform="translate(134.976 132.976)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+    <line id="Line_9" data-name="Line 9" x2="39.985" transform="translate(150.97 148.97)" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+  </g>
+</svg>

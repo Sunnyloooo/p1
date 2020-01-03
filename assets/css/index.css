@@ -27,6 +27,7 @@ a:hover {
     background-size: cover;
     height: 110vh;
 }
+
 #header #choose {
     margin-top: 100px;
     border: none;
@@ -34,6 +35,7 @@ a:hover {
     background: #7aad7e;
     color: white;
 }
+
 #navbar {
     background: white;
     opacity: 0.8;
@@ -90,17 +92,18 @@ a:hover {
     height: 100%;
     object-fit: contain;
 }
+
 /*section3*/
 
 #section3 {
     margin-top: 100px;
     margin-bottom: 100px;
-    height: 50vh;
+    min-height: 50vh;
     line-height: 1.7;
 }
 
 #section3 .circleIcon {
-    color:#7aad7e;
+    color: #7aad7e;
     padding: 25px;
     margin: auto;
     margin-bottom: 30px;
@@ -109,31 +112,66 @@ a:hover {
     border: 2px solid #7aad7e;
     border-radius: 50%;
 }
-#section3 h3{
+
+#section3 h3 {
     margin-bottom: 20px;
 }
+
 /*section4*/
 #section4 {
     padding-top: 100px;
-    height: 60vh;
+    min-height: 70vh;
     background: #7aad7e;
 }
-#section4 h1{
+
+#section4 h1 {
     color: #efefef;
     margin-bottom: 40px;
 }
-#section4 button{
+
+#section4 button {
     border: none;
     border-radius: 2px;
     color: #7aad7e;
     background: white;
+    margin-bottom: 100px;
+}
+
+/*section5*/
+#section5 {
+    height: 110vh;
+    background: #f5fff5;
+}
+
+#section5 figure {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#section5 .figureLg {
+    width: 100%;
+    height: 90%;
+}
+
+#section5 .figureSm {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#section5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#section5 h3 {
+ line-height: 1.5;
 }
 #mainContent {
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 1.2;
 }
-
 
 
 /* Small devices (landscape phones, 576px and down) */
@@ -161,6 +199,12 @@ a:hover {
 
     #section2 #contentWrap {
         margin: auto;
+    }
+    #section3 {
+        min-height: 100vh;
+    }
+    #section5 {
+        height: 180vh;
     }
 }
 
